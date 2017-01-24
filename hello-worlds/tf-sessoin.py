@@ -36,4 +36,7 @@ print("Results");
 print(result);
 print(neg_myTensor2.eval());
 print(product.eval());
+print("shape of matrix1: ", matrix1.get_shape());
+print("shape of matrix3: ", matrix3.get_shape());
+print("shape of myTensor2: ", myTensor2.get_shape());
 sess.close();

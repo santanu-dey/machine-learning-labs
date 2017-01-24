@@ -19,3 +19,5 @@ t3 =  tf.convert_to_tensor(m3, dtype=tf.float32);
 print(type(t1));
 print(type(t2));
 print(type(t3));
+
+print("shape of m3: ", m3.get_shape());
